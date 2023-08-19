@@ -1,0 +1,130 @@
+:root{
+     --primary-color: #2c1f4d;
+     --background-color: #F6F9FE;
+}
+*{
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'Nunito', sans-serif;
+     background-color: var(--background-color);
+     color: var(--primary-color);
+     padding: 0 150px;
+}
+
+header{
+     width: 100%;
+     padding: 30px 0 ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+nav{
+     width: 550px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+nav a{
+     color: #626262;
+     font-weight: bold;
+     text-decoration: none;
+}
+.button{
+     padding: 15px 30px;
+     border: none;
+     background-color: var(--primary-color);
+     color: white;
+     font-weight: bold;
+     border-radius: 5px;
+     font-family: 'Nunito', sans-serif;
+}
+.content{
+     width: 100%;
+     height: 350px;
+     overflow: hidden;
+     display: flex;
+     justify-content: space-between;
+     
+}
+.content-info{ 
+     width: 62%; 
+     display: flex;
+     flex-direction: column;
+     padding: 20px 0;
+     
+}
+.content-img{
+     width: 30%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-end;
+}
+.content-img img{ height: 100%; }
+
+.content-early-access{
+     background-color: var(--primary-color);
+     color: var(--background-color);
+     padding: 5px 20px;
+     border-radius: 50px;
+     width: 450px;
+}
+
+.content-early-access a{
+     color: var(--background-color);
+     font-weight: bold;
+}
+
+.content-tittle{
+     font-family: 'Nunito', sans-serif;
+     font-size: 3rem;
+}
+
+.box{ margin: 5px 0; }
+
+.content-paragraph{
+     color: #3d3d3d;
+}
+
+#mail{
+     background-color: white;
+     border: 1px solid #00000033;
+     border-radius: 10px;
+     margin-right: 10px;
+     width: 310px;
+     height: 50px;
+     padding: 0 20px;
+     font-family: 'Nunito', sans-serif;
+     
+}
+
+.footer-tittle{
+     color: #626262;
+     font-weight: bold;
+}
+
+.icons-sites{
+     padding: 20px 0;
+     width: 40%;
+     display: flex;
+     justify-content: space-between;    
+}
+
+nav a:hover{
+     border-bottom: 1px solid  #626262;
+     
+}
+
+.button:hover{
+     background-color: #422f74;
+     cursor: pointer;
+}
+
+.icons-sites a:hover{
+     scale: 1.2;
+     transition: .3s;
+     fill: aqua;
+}
+

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+.container{
+
+    width: 90%;
+    height: 600px;
+    outline: 2px solid;
+    margin: 80px auto;
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "main main main side side"
+    "main main main side side"
+    "main main main side side"
+    "footer footer footer footer footer"
+    ;
+    gap:20px;
+}
+
+.item{
+
+    /* width: 100px; */
+    /* height: 100px; */
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+
+    background-color: slateblue;
+    grid-area: nav;
+    
+}
+
+.item2{
+    background-color: crimson;
+    grid-area: main;
+}
+
+.item3{
+    background-color: chartreuse;
+    grid-area: side;
+}
+
+.item4{
+    background-color: coral;
+    grid-area: footer;
+}
+
+
+/* Para eliminar un item en grid-area no se borra sino se pone un ( . ) */

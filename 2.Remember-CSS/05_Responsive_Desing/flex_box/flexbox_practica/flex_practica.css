@@ -1,0 +1,76 @@
+:root{
+    --text-color:black;
+    --box-shadow: 0 5px 10px black;
+    --gradient: #393e46;
+    --box-shadow-inset:inset 0 5px 10px black;
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-image: linear-gradient(-225deg, #b6cee8d5 0%, #F578DC 100%), url(comer-dormir-codificar-repetir_3840x2160_xtrafondos.com.jpg);
+    font-family: 'Roboto Mono', monospace;
+    line-height: 100px;
+
+}
+h1{
+    color: #111;
+    /* text-shadow: -4px 2px 15px  black; */
+    font-weight: 700;
+    padding: 30px;
+    background: #e5e2db;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 0 0 10% 10%;
+    box-shadow: 0 5px 30px black;
+    /* text-decoration: underline; */
+
+}
+hr{
+    box-shadow: var(--box-shadow-inset);
+    height: 5px;
+    background-color: white;
+    
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    background-color: rgb(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 30px;
+    justify-content: center;
+    box-shadow: 0 10px 50px ;
+}
+.c1{
+    
+    /* background-image: var(--gradient); */
+    width: 400px;
+    height: 400px;
+    margin:40px auto;
+    border: none;
+    box-shadow:var(--box-shadow-inset) ;
+    box-shadow: var();
+    background: #e5e2db;
+    color: var(--text-color);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.caja1{
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-inset);
+    background-color: rgba(1, 1, 255, 0.834) ;
+    background: #ffd481;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+
+}

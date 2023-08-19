@@ -1,0 +1,51 @@
+
+   h1{
+    color: purple;
+}
+p{
+    color: white;
+    background-color: crimson;
+    padding: 15px;
+    border: 10px solid black;
+    /* margin: 20px; 
+    margin-top: 30px;
+    margin-right: 10px ;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin: 40px 10px 30px 10px; */
+    text-align: center;
+}
+/* a:link{
+    color:aqua;
+    text-decoration: none;
+}
+
+a:visited{
+    color: crimson;
+    text-decoration: none; 
+    
+} */
+/* cuando nos ponemos cima el link */
+/* a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+    text-decoration: underline;
+} */
+
+a:link, a:visited{
+    color: white;
+    background-color: rgb(57, 1, 57);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a:hover, a:active{
+    background-color: orange;
+    
+}

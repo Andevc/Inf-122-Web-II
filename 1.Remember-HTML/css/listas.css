@@ -1,0 +1,49 @@
+h1{
+    color: darkblue;
+
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(36, 0, 61);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+li a{
+    /* para seleccionar los links que se encuentran en las listas  */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: aqua;
+
+}
+/* ------------------------------------------------------ */
+ol{
+    list-style: none;
+    counter-reset: contador;
+
+}
+ol li{
+    counter-increment: contador;
+}
+
+ol li::before{
+    /* before=antes */
+    content: 'nose 'counter(contador) ' ';
+    color: red;
+
+}
+
+ol li::after{
+    content: '... xd';
+}

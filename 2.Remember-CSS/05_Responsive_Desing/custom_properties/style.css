@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+}
+.title{
+    color: royalblue;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: royalblue;
+    color: #fff;
+    text-decoration: none ;
+}
+
+.paragraph{
+
+    color: royalblue;
+}

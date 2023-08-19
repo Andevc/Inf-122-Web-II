@@ -1,0 +1,38 @@
+table{
+    width: 100%;
+
+}
+table, th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse; 
+    padding: 15px;
+    /* border-spacing: 5px; */
+
+}
+
+caption{
+    color: #e63946;
+    font-family: serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+th{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+}
+/* Reglones pares con la funcion nth-child(even) */
+tr:nth-child(even){
+    background-color: crimson;
+    color: white;
+}
+/* Reglones impares con la funcion nth-child(odd) */
+tr:nth-child(odd){
+    background-color: aliceblue;
+
+}
+
+td{
+    text-align: center;
+}

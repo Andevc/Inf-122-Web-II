@@ -1,0 +1,18 @@
+h2{
+    color: palevioletred;
+    text-align: center;
+}
+
+h3{
+    color: crimson;
+}
+
+p{
+    color: blue;
+}
+
+div{
+    border: 10px solid darkmagenta;
+    background-color: beige;
+    text-align: center;
+}

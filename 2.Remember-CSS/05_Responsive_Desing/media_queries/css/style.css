@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+.element{
+    margin: 80px auto;
+    width: 50%;
+    height: 200px;
+    background-color: slateblue;
+
+}
+
+@media(max-width:800px) {
+
+    body{
+        background-color: slateblue;
+    }
+    .element{
+        background-color: coral;
+    }
+    
+}
+
+@media (max-width:500px){
+
+    body{
+        background-color: chartreuse;
+    }
+    .element{
+        background-color: crimson;
+    }
+
+}
+
+
+
+@media(min-width:100px){
+
+    .element{
+        background-color: red;
+    }
+
+}
+
+@media(min-width:300px){
+    .element{
+        background-color: black;
+    }
+}

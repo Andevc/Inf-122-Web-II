@@ -1,0 +1,23 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+    min-height: 300vh;
+}
+.container{
+    width: 200vw;
+    height: 500px;
+    background: linear-gradient(90deg,#8b3dbe,#0ad875);
+}
+.sticky{
+    box-shadow: -5px 0px 10px black;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(#ff3300,hotpink);
+    position: sticky;
+    top: 60px;
+    left: 100px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form method="post" >
+        <!-- el metodo get es el por defectoy el metodo post para que no se
+        visualice la informacion que se manda al servidor-->
+        <!-- el atributo novalidate no valida la informacion del formulario -->
+        <!-- para capturar el texto del usuario es el tipo text -->
+        <label for="nombre">Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" placeholder="you name" 
+        required="true"/><br/>
+        <label for="apellido">Apellido:</label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="you later name" 
+        required="true"/><br/>
+        <!-- el tipo password para contraseñas -->
+        <label for="password">Password:</label><br/>
+        <input type="password" id="password" name="password"
+        required="true"><br/>
+        <input type="submit" value="enviar">
+        <input type="submit" formnovalidate="formnovalidate" value="enviar sin validar">
+    </form>
+    <hr>
+    <!-- ---------------------------------------------- -->
+    <h1>Formulario tipo email</h1>
+    <form autocomplete="off">
+        <!-- el atributo action es a donde se enviara la informacion del form 
+            el atributo target="_self o _bank" para que se muestre la info de respuesta
+            el atributo de autocomplete para autocompletar informacion
+
+        -->
+        <fieldset>
+            <legend>Datos</legend>
+            <!-- el atributo fielset espara enmarcar el formulario y el legend para darle un titulo -->
+            <label for="email">E-mail</label><br/>
+            <input type="email" id="email" name="email"><br/>
+            
+            <label for="edad">Edad</label><br/>
+            <input type="number" name="edad" id="edad"><br/>
+            <!-- el atributo step="any" para poder agregar decimales -->        
+            <!-- radiobuttons y checkboxes -->
+            <label>Genero</label><br>
+            <input type="radio" name="gen" id="female" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gen" id="male" value="male">
+            <label for="male">Male</label><br>
+            <label>Musica</label><br>
+            <input type="checkbox" name="music" id="clasica">
+            <label for="clasica">clasica</label><br>
+            <input type="checkbox" name="music" id="electro">
+            <label for="electro">electro</label><br>
+            <input type="checkbox" name="music" id="rock">
+            <label for="rock">rock</label><br>
+            <input type="checkbox" name="music" id="pop">
+            <label for="pop">pop</label><br>
+            <input type="checkbox" name="music" id="jazz">
+            <label for="jazz">jazz</label><br>
+
+            <label for="car">marca de autos</label><br>
+            <select id="car" name="car" >
+                <!-- multiple="true" para enviar varios valores -->
+                <option value="volvo">volvo</option>
+                <option value="BMW">BMW</option>
+                <option value="audi">audi</option>
+            </select><br>
+            <label for="coment">comentarios</label><br>
+            <textarea name="coment" id="coment" cols="30" rows="2">
+
+            est
+            </textarea><br>
+            <!-- Elementos del tipo input-->
+            <input type="reset" value="reset"><br>
+            
+            <label for="idpeople">People</label><br>
+            <input type="text" name="idpeople" id="idpeople" readonly="true" value="x" disabled="true"><br>
+            <!-- readonly es un elemeto que no se puede modificar y disabled para desabilitar-->
+            <input type="hidden" name="sis" id="sis" value="sis"><br>
+            <!-- el hidden es para enviar el nombre del sistema -->
+            <br><br>
+            <input type="submit" value="enviar"><br/>
+        </fieldset>
+    </form>
+    <!-- ---------------------------------------------- -->
+</body>
+</html>

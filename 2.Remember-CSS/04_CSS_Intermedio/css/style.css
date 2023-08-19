@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+
+    /* width: 300px; */
+    height: 600px;
+    /* margin: .1px; */
+    /* background-color: #9d7ea7; */
+    /* background-image: url(img/imagen.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center; */
+    background-image: linear-gradient(#ff0000a4, #1500ff9d), url(img/spid.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: .1px;
+
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* PACMAN */
+.pacman{
+
+    width: 100px;
+    margin: 80px;
+    border-bottom: 100px solid yellow;
+    border-top: 100px solid yellow;
+    border-left: 100px solid yellow;
+    border-right: 100px solid transparent;
+    border-radius: 100%;
+
+}

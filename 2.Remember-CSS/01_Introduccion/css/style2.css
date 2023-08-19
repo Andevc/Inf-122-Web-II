@@ -1,0 +1,57 @@
+/* Selector Universal */
+/* *{
+    color:coral;
+
+} */
+
+ /* combinador de decendientes */
+
+ .abuelo .titulo{
+     color: seagreen;
+     font-size: 40px;
+ }
+ 
+ .padre .titulo{
+     color: greenyellow;
+
+ }
+/* > para seleccionar a los hijos directos del div */
+ .abuelo>.titulo{
+     color: goldenrod;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* este es un selector de tipo 
+h2{
+    color: orange;
+    
+}
+*/
+/* Selector de tipo clase */
+/* .titulo{
+    color:blue;
+    font-size: 30px;
+    border: 3px solid red;
+} 
+
+.negrita{
+    font-weight: bold;
+} */
+/* Para el selector de un ID es necesario poner un #, aveces no es necesario usar un ID*/
+/* #titulo{
+    color: slategray
+} */

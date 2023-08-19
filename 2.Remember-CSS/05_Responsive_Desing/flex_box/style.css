@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+.flex{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px solid black;
+
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* row | row-reverse | column | column-reverse */
+    /* flex-wrap: wrap-reverse; */
+    justify-content: space-evenly; 
+}
+.element{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+
+}
+.element1{
+    background-color: slateblue;
+    
+}
+
+.element2{
+    background-color: crimson;
+}
+
+.element3{
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+

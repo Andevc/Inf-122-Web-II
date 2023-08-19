@@ -1,0 +1,19 @@
+.caja{
+  
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    /* overflow: hidden; */
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    padding: 30px;
+    /* border-color: chartreuse;
+    border-width: 20px;
+    border-style: solid; */
+    border: 20px double cornflowerblue ;
+}
+
+.caja1{
+    margin: 80px;
+}

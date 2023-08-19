@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'arial';
+    font-size: 20px;
+
+}
+
+.container{
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+.title{
+    margin-bottom: 20px;
+    background: black;
+    width: 50%;
+    height: 100px;
+}
+
+.primero{
+    font-size: 2em;
+    padding: 10px;
+}
+
+.segundo{
+    font-size: 30px;
+}
+
+.terecer{
+    font-size: 3rem;
+}
+
+.cuarto{
+    font-size: 20px;
+}

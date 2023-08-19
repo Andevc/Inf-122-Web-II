@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'arial';
+    /* height: 1500px; */
+
+}
+
+.container{
+    background-color: slateblue;
+    /* padding: 30px; */
+    width: 100vh;
+    height: 100vh;
+}
+
+.item{
+
+    height: 100px;
+    background-color: crimson;
+    width: 50%;
+    height: 50%;
+    
+}

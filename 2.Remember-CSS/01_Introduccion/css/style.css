@@ -1,0 +1,17 @@
+/*  Estos son los comentarios  
+h2{
+    color:blueviolet;
+    border: 10px solid orange;
+}
+h1{
+    color: aqua;
+    border: 5px solid yellow;
+}
+Esta es la forma en que se trabaja desde otro archivo 
+*/
+/* ctrl+k+u para hacer comentarios mas rapidos  */
+h1{
+    color:crimson;
+font-size: 60px;
+    text-align: center;
+}
